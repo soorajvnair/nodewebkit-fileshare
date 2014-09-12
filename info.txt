@@ -1,0 +1,11 @@
+todo
+
+Will continue with this project from saturday onwards
+
+
+1. Need to look at the whole code
+2. implement it in a better way
+3. proper modularization this time
+4. use wide use of backbone models to represent various stages
+5. maybe bringin backbone.stick it to do observing tasks
+6. i'll have to read about proper javascript modularization.

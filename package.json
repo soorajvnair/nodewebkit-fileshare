@@ -1,0 +1,17 @@
+{
+  "name": "nw-demo",
+  "main": "index.html",
+  "window": {
+	"toolbar": true,
+	"width" : 800,
+	"height" : 600,
+	"position": "mouse",
+	"min_width": 400,
+	"min_height": 200
+	},
+	"webkit": {
+		"plugin": true,
+		"page-cache": false
+	},
+	"chromium-args": "--child-clean-exit"
+}

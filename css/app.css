@@ -1,0 +1,145 @@
+#fileArea{
+
+	padding : 20px 20px 20px 20px; 
+	
+}
+
+#fileBtn{
+
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top-width: 1px;
+    border-left-width : 1px;
+    margin-top: 80px;
+    margin-bottom: 5px;
+    border-radius : 0px;
+
+}
+
+#fileDialog{
+
+	display: none;
+}
+
+.colorgraph {
+  margin-bottom: 7px;
+  height: 5px;
+  border-top: 0;
+  background: #c4e17f;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}
+
+.peerList{
+
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top-width: 1px;
+    border-left-width : 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+
+}
+
+.peerUl{
+
+  margin-top : 20px;
+
+}
+
+.btnSelected{
+
+  background-color: 
+
+}
+
+.selectedStage{
+  
+  margin-right: 5px;
+  width : 100px;
+  border-radius: 0px;
+}
+
+.eachFile{
+
+  border: 1px solid #F5EBEB;
+  margin-top: 10px;
+
+}
+
+.fileDetails{
+
+  padding-left: 15px;
+}
+
+.closeBtn{
+
+  padding: 5px 10px 5px 5px;
+  color: #f0776c;
+  cursor: pointer;
+
+}
+
+.sidebtn{
+
+  margin-left: 40px;
+
+}
+
+.progress{
+
+  height : 10px;
+
+}
+
+.individual_Pro{
+  
+  margin-top: 10px;
+  margin-bottom: 10px; 
+
+}
+
+.hostInfo{
+
+    padding-left: 50px;
+
+}
+
+
+#sendingCancel{
+
+  width : 200px;
+
+}
+
+.fileSendBox{
+
+  margin-top: 15px;
+
+}
+
+#subTransfers{
+
+  display : none;
+
+}
+
+.topInfo{
+
+  padding: 20px 20px 10px 20px;
+
+}
+
+.expandIcon{
+
+    cursor: pointer;
+
+}

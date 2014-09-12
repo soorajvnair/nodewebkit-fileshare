@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Backbone Testing - Arcle Home Grown</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 col-md-6" id="dropZone">
+				<h1><small>File Upload</small></h1>
+				<hr class="colorgraph">
+				<div id="fileArea">
+					<input type="file" id="fileDialog" multiple>
+					<div id="buttonArea"></div>
+					<div id="fileList"></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3">
+				<h1><small>Online Users</small></h1>
+				<hr class="colorgraph">	
+				<div id="peerArea">
+					
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3">
+				<h1><small>News feed</small></h1>
+				<hr class="colorgraph">
+				<div id="newsArea">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/template" id="peerListTemplate">
+
+		<%=hostname%>
+
+	</script>
+
+	<script type="text/template" id="emptyFileView">
+
+		<center><button id="fileBtn" class="btn-lg btn-primary btn">Send</button></center>
+
+	</script>
+
+	<script type="text/template" id="fileView">
+
+		<div class ="eachFile">
+
+			<h4 class="fileDetails"><span class="glyphicon glyphicon-remove pull-right closeBtn"></span><small>File Name : <%=name%></small></h4><h4 class="fileDetails"><small>Size : <%=size%></small></h4><div id="info"></div>
+
+		</div>
+
+	</script>
+
+	<script type="text/template" id="topFileButton">
+
+		<center><button id="send" class="btn-md btn-primary btn selectedStage">Send</button><button id="cancel" class="btn-md btn-primary btn selectedStage">Cancel</button><button id="add" class="btn-md btn-primary btn selectedStage">Add more</button></center>
+
+	</script>
+
+	<script id = "sendTemplate" type="text/template">
+
+ <div class="row topInfo"> <div class="row"> <div class="col-lg-12 col-md-12"> <h4 class="transferInfo"><small>Transferring <%=name%> to <%=to.length%> Peers</small></h4> </div> </div> </div> <div class="row"> <div class="col-lg-10 col-md-10 "> <div class="fileSendBox"> <div class="progress"> <div class="progress-bar progress-bar-success" style="width: 0%"> <span class="sr-only">35% Complete (success)</span> </div><div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 0%"> <span class="sr-only">20% Complete</span></div><div class="progress-bar progress-bar-danger" style="width: 2%"> <span class="sr-only">10% Complete (danger)</span> </div> </div> </div> </div> <div class="col-lg-2 col-md-2  expandIcon"> <h5 class="pull-right expAndCollapse"><small>Toggle<span class="glyphicon glyphicon-chevron-down"></span></small></h5> </div> </div><div id="subTransfers"></div>
+
+	</script>
+
+	<script id="sendSubTemplate" type="text/template">
+
+<div class="row collapseBox"> <div class="col-lg-4 col-md-4 "> <div class="hostDiv"> <center><h5 class="hostInfo"><small><%=hostname%></small></h5></center> </div> </div> <div class="col-lg-8 col-md-8 "> <center> <div class="hostSendBox"> <div class="progress individual_Pro"> <div class="progress-bar progress-bar-success" style="width: <%=progress%>%"> <span class="sr-only">35% Complete (success)</span></div></div></div></center></div></div>
+
+	</script>
+
+	<!-- all scripts -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/underscore-min.js"></script>
+	<script src="js/backbone-min.js"></script>
+	<script src="js/backbone.stickit.min.js"></script>
+	<script src="nw-desktop-notifications.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/peer.js"></script>
+	<script src="js/filehandler.js"></script>
+	<script src="js/Appcontroller.js"></script>
+	<script src="js/notifications.js"></script>
+</body>
+</html>
+
+
